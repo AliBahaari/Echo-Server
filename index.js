@@ -4,9 +4,7 @@ const port = 4000;
 require('express-ws')(app);
 
 app.get('/', (req, res) => {
-
-    res.end('Echo Server | Ali Bahaari');
-
+    res.end('Echo Server | Ali Bahaari | alibahaari.github.io');
 });
 
 app.ws('/echo', (ws, req) => {
