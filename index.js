@@ -5,7 +5,7 @@ require('express-ws')(app);
 
 app.get('/', (req, res) => {
 
-    res.send('Echo Server | Ali Bahaari');
+    res.end('Echo Server | Ali Bahaari');
 
 });
 
