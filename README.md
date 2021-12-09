@@ -1,7 +1,7 @@
 
 # Echo Server
 
-"Echo Server" is a simple socket echo server written by Node.js, Express and Express-WS for testing socket programming in Node.js.
+"Echo Server" is a simple socket echo server written by Node.js, Express and Express-WS for testing socket programming.
 
 ## Usage
 First, you should connect to `localhost:4000/echo`.
